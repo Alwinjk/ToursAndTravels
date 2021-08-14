@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>World Adventure</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/package.css">
+		<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+		<script src="js/package.js"></script>
+	</head>
+	<body>
+		<div class="hero index-hero">
+			<div id="bg-img"></div>
+			<header class="index-header">
+				<h1 id="logo"><a href="index.html"><img src="images/World Adventure.png"></a></h1>
+				<nav>
+					<ul>
+						<li>
+							<a href="index.html">Home</a>
+						</li>
+						<li>
+							<a href="#">Theme Tours</a>
+							<ul class="dropdown">
+								<li><a href="GroupTours.html">Group Tours</a></li>
+								<li><a href="Luxury_and_Honeymoon.html">Luxury / Honeymoon Tours</a></li>
+							</ul>
+						</li>
+						<li class="active">
+							<a href="package.html">India Tour Guide</a>
+						</li>
+						<li>
+							<a href="blog.html">Blog</a>
+						</li>
+						<li>
+							<a href="Aboutus.html">About us</a>
+						</li>
+					</ul>
+				</nav>
+			</header>
+			<div class="hero-fg">
+				<h1>Indian Destinations</h1>
+			</div>
+		</div>	
+		<main>
+			
+			<div id="where-to-container">
+				<h2>Where do you want to go?</h2>
+				<form>
+					<div class="flex-container">
+						<select id="state">
+							<option value="kerala">Kerala</option>
+							<option value="kashmir">Kashmir</option>
+							<option value="goa">Goa</option>
+							<option value="himachal">Himachal Pradesh</option>
+						</select>
+						<input type="button" value="Search" id="search">
+					</div>
+				</form>
+			</div>
+			
+<!--			kerala starts here -->
+			<div id="kerala-container">
+				<div class="season-container">
+					<div class="flex-container">
+						<div class="img-container">
+							<img src="images/chathurangapara-1.jpg" width="530px" height="560px" alt="Chathurangapara landscape">
+						</div>
+						<div class="note">
+							<h2>The God's Own Country</h2>
+							<p>Kerala's history is closely connected with trade and commerce. Vasco Da Gama first sailed to in India via Kerala. <span class="hide">Travellers and traders from across the world including the Arabs, Dutch, French and British came to buy spices, wood etc. It has diverse religious traditions and its own language is Malayalam. Kerala boasts of an advanced educational system and the highest literacy rate in the country.From the intricately carved temples to elegant dance forms and piping hot dosas, a trip to Kerala ticks all the criterion that make for a great vacation.</span> </p>
+							
+							<a href="#">Read More</a>
+							<button class="contact-us">Contact Us</button>
+						</div>
+					</div>
+				</div>
+				<div class="place-container">
+					<div class="flex-container">
+						<div class="img-container">
+							<img src="images/beach-view.jpg" width="500px" height="560px" alt="beach view">
+						</div>
+						<div class="note">
+							<h2>Best Time to Visit</h2>
+							<p>Lined by the Western Ghats and the sea, Kerala enjoys an equable climate despite being close to the equator. It is a tropical state blessed with a pleasant atmosphere throughout the year,<span class="hide"> making it ideal to visit at any time.The more prominent seasons here are the monsoon and summer. The dry season lasts from December to February and the hot, humid summer lasts from March to the end of May. Kerala receives a lot of rainfall and the monsoon season last from the end of May to the end of November. Winter is marked by small dip in the temperature from the normal range of 27-32°C.</span></p>
+							<a href="#">Read More</a>
+							<button class="contact-us">Go To Gallery</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="pckg-container">
+					<h2>Our Packages &amp; Recommendations</h2>
+					<div class="tbl-container">
+						<table>
+							<thead>
+								<tr>
+									<th class="heading" colspan="6">Kerala</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td class="tbl-img"><img src="images/kumarakom.jpg" alt="kumarakom"></td>
+									<td class="title">Kerala Backwaters with Beach</td>
+									<td colspan="2">
+										<span class="trip">Short Breaks</span>
+										<span class="flight">Flight not included</span>
+										<span class="small">Scenic Kerala</span>
+									</td>
+									<td><span class="days">4 Nights / 5 Days</span>
+										<span class="small"> ₹ 12,370</span>
+									</td>
+									<td><span>Kumarakom, Kovalam</span></td>
+								</tr>
+								<tr>
+									<td class="tbl-img"><img src="images/thekkady.jpg" alt="Thekkady"></td>
+									<td class="title">Wild Kerala</td>
+									<td colspan="2">
+										<span class="trip">Private Van Tour</span>
+										<span class="flight">Flight not included</span>
+										<span class="small">Scenic Kerala</span>
+									</td>
+									<td>
+										<span class="days">5 Nights / 6 Days</span>
+										<span class="small"> ₹ 15,460</span>
+									</td>
+									<td>Munnar, Thekkady, Kumarakom</td>
+								</tr>
+								<tr>
+									<td class="tbl-img"><img src="images/munnar-1.jpg" alt="Munnar"></td>
+									<td class="title">Kerala with Munnar</td>
+									<td colspan="2">
+										<span class="trip">Private Van Tour</span>
+										<span class="flight">Flight not included</span>
+										<span class="small">Scenic Kerala</span>
+									</td>
+									<td>
+										<span class="days">6 Nights / 7 Days</span>
+										<span class="small"> ₹ 19,460</span>
+									</td>
+									<td><span>Munnar, Thekkady, Aleppy, Kumarakom</span></td>
+								</tr>
+								<tr>
+									<td class="tbl-img"><img src="images/alleppey.jpg" alt="Alleppy"></td>
+									<td class="title">Kerala Coast(Land Package)</td>
+									<td colspan="2">
+										<span class="trip">Private Van Tour</span>
+										<span class="flight">Flight not included</span>
+										<span class="small">Scenic Kerala</span>
+									</td>
+									<td>
+										<span class="days">7 Nights / 8 Days</span>
+										<span class="small"> ₹ 23,460</span>
+									</td>
+									<td><span>Munnar, Thekkady, Kumarakom, Kovalam</span></td>
+								</tr>
+								<tr>
+									<td class="tbl-img"><img src="images/idukki.jpg" alt="Idukki"></td>
+									<td class="title">Whole of Kerala(Land Package)</td>
+									<td colspan="2">
+										<span class="trip">Private Van Tour</span>
+										<span class="flight">Flight not included</span>
+										<span class="small">Scenic Kerala</span>
+									</td>
+									<td>
+										<span class="days">8 Nights / 9 Days</span>
+										<span class="small"> ₹ 27,460</span>
+									</td>
+									<td><span>Cochin, Munnar, Thekkady, Kumarakom, Kovalam</span></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+
+				<div class="img-gallery">
+					<h2>Popular Destinations in Kerala</h2>
+					<div class="flex-container">
+						<div class="gallery-item">
+							<img src="images/kovalam.jpg" alt="Kovalam">
+							<div class="place-img-container">
+								<a href="images/kovalam.jpg" target="_blank">
+									<div class="place-name-container">
+										<h3>Kovalam</h3>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="gallery-item">
+							<img src="images/munnar-1.jpg" alt="Munnar">
+							<div class="place-img-container">
+								<a href="images/munnar-1.jpg" target="_blank">
+									<div class="place-name-container">
+										<h3>Munnar</h3>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="gallery-item">
+							<img src="images/idukki.jpg" alt="Idukki">
+							<div class="place-img-container">
+								<a href="images/idukki.jpg" target="_blank">
+									<div class="place-name-container">
+										<h3>Idukki</h3>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="gallery-item">
+							<img src="images/kumarakom.jpg" alt="Kumarakom">
+							<div class="place-img-container">
+								<a href="images/kumarakom.jpg" target="_blank">
+									<div class="place-name-container">
+										<h3>Kuarakom</h3>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="gallery-item">
+							<img src="images/alleppey-1.jpg" alt="Alleppy">
+							<div class="place-img-container">
+								<a href="images/alleppey-1.jpg" target="_blank">
+									<div class="place-name-container">
+										<h3>Alleppey</h3>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="gallery-item">
+							<img src="images/thekkady.jpg" alt="Thekkady">
+							<div class="place-img-container">
+								<a href="images/thekkady.jpg" target="_blank">
+									<div class="place-name-container">
+										<h3>Thekkady</h3>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+
+<!--			kashmir starts here -->
+			<div id="kashmir-container">
+				<div class="season-container">
+					<div class="flex-container">
+						<div class="img-container">
+							<img src="images/kashmir-1.jpg" alt="Leh Manali">
+						</div>
+						<div class="note">
+							<h2>Paradise on earth</h2>
+							<p>Kashmir, a piece of heaven on earth. A valley between the great Himalayan range and the Pir Panjal mountain range, a place of beautiful simplicity<span class="hide"> and pristine natural beauty.  Kashmir is world famous for its scenic splendour, snow-capped mountains, plentiful wildlife, exquisite monuments, hospitable people and local handicrafts. Your trip to Jammu and Kashmir will be a memorable one as the state will not only appeal to you with its scenic beauty and snow-covered mountain ranges, but the adventure sports will take you to a different world.</span></p>
+							
+							<a href="#">Read More</a>
+							<button class="contact-us">Contact Us</button>
+						</div>
+					</div>
+				</div>
+				<div class="place-container">
+					<div class="flex-container">
+						<div class="img-container">
+							<img src="images/kashmir-2.jpg" alt="hills view">
+						</div>
+						<div class="note">
+							<h2>Best Time to Visit</h2>
+							<p>The region changes with every season. Any time you visit will be a unique and memorable experience; the place is snow-covered heaven in winters<span class="hide">, transforming into a vibrant paradise in the summer months. One visit to Kashmir is never really enough and every season is an opportunity to discover something unique and explore different locations. The best time to visit Kashmir is March through October. If you want to enjoy Kashmir when the flowers are in full bloom and the alpine meadows at their greenest, this is the best period. Kashmir experiences four major seasons and the months of March to October cover spring, summer, and autumn.</span></p>
+							<a href="#">Read More</a>
+							<button class="contact-us">Go To Gallery</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="pckg-container">
+					<h2>Our Packages &amp; Recommendations</h2>
+					<div class="tbl-container">
+						<table>
+							<thead>
+								<tr>
+									<th class="heading" colspan="6">Jammu &amp; Kashmir</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td class="tbl-img"><img src="images/leh-limelight.jpg" alt="Leh limelight"></td>
+									<td class="title">Leh Limelight - Ex. Leh</td>
+									<td colspan="2">
+										<span class="trip">Self Drive Tour</span>
+										<span class="flight">Flight included</span>
+										<span class="small">Scenic Kashmir</span>
+									</td>
+									<td><span class="days">6 Nights / 7 Days</span>
+										<span class="small"> ₹ 21,300</span>
+									</td>
+									<td><span>Leh, Nubra Valley, Pangong Tso Lake</span></td>
+								</tr>
+								<tr>
+									<td class="tbl-img"><img src="images/nubra-valley.jpg" alt="Nubra Valley"></td>
+									<td class="title">Amazing Ladakh</td>
+									<td colspan="2">
+										<span class="trip">Private Van Tour</span>
+										<span class="flight">Flight not included</span>
+										<span class="small">Scenic Kashmir</span>
+									</td>
+									<td>
+										<span class="days">7 Nights / 8 Days</span>
+										<span class="small"> ₹ 24,300</span>
+									</td>
+									<td>Leh, Nubra Valley, Pangong Tso Lake</td>
+								</tr>
+								<tr>
+									<td class="tbl-img"><img src="images/Pangong-Tso-Lake.jpg" alt="Pangong-Tso-Lake"></td>
+									<td class="title">Kashmir Leh Road Journey Summer</td>
+									<td colspan="2">
+										<span class="trip">Self Drive Tour</span>
+										<span class="flight">Flight not included</span>
+										<span class="small">Scenic Kashmir</span>
+									</td>
+									<td>
+										<span class="days">8 Nights / 9 Days</span>
+										<span class="small"> ₹ 28,100</span>
+									</td>
+									<td><span>Srinagar, Kargil, Leh, Nubra Valley, Pangong Tso Lake</span></td>
+								</tr>
+								<tr>
+									<td class="tbl-img"><img src="images/gulmarg.jpg" alt="Gulmarg"></td>
+									<td class="title">Exotic Kashmir</td>
+									<td colspan="2">
+										<span class="trip">Private Van Tour</span>
+										<span class="flight">Flight not included</span>
+										<span class="small">Scenic Kashmir</span>
+									</td>
+									<td>
+										<span class="days">6 Nights / 7 Days</span>
+										<span class="small"> ₹ 17,570</span>
+									</td>
+									<td><span>Srinagar, Gulmarg, Pahalgam, Srinagar</span></td>
+								</tr>
+								<tr>
+									<td class="tbl-img"><img src="images/katra.jpg" alt="Katra"></td>
+									<td class="title">Exotic Kashmir with Katra</td>
+									<td colspan="2">
+										<span class="trip">Private Van Tour</span>
+										<span class="flight">Flight not included</span>
+										<span class="small">Scenic Kerala</span>
+									</td>
+									<td>
+										<span class="days">8 Nights / 9 Days</span>
+										<span class="small"> ₹ 23,260</span>
+									</td>
+									<td><span>Srinagar, Gulmarg, Pahalgam, Katra</span></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+
+				<div class="img-gallery">
+					<h2>Popular Destinations in Jammu &amp; Kashmir</h2>
+					<div class="flex-container">
+						<div class="gallery-item">
+							<img src="images/leh-limelight.jpg" alt="Leh Limelight">
+							<div class="place-img-container">
+								<a href="#">
+									<div class="place-name-container">
+										<h3>Leh Limelight</h3>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="gallery-item">
+							<img src="images/nubra-valley.jpg" alt="Nubra valley">
+							<div class="place-img-container">
+								<a href="#">
+									<div class="place-name-container">
+										<h3>Nubra Valley</h3>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="gallery-item">
+							<img src="images/Pangong-Tso-Lake.jpg" alt="Pangong Tso Lake">
+							<div class="place-img-container">
+								<a href="#">
+									<div class="place-name-container">
+										<h3>Pangong Tso Lake</h3>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="gallery-item">
+							<img src="images/gulmarg.jpg" alt="Gulmarg">
+							<div class="place-img-container">
+								<a href="#">
+									<div class="place-name-container">
+										<h3>Gulmarg</h3>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="gallery-item">
+							<img src="images/katra.jpg" alt="Katra">
+							<div class="place-img-container">
+								<a href="#">
+									<div class="place-name-container">
+										<h3>Katra</h3>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="gallery-item">
+							<img src="images/ladakh.jpg" alt="Ladakh">
+							<div class="place-img-container">
+								<a href="#">
+									<div class="place-name-container">
+										<h3>Ladakh</h3>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			
+<!--			Goa starts here-->
+			<div id="goa-container">
+				<div class="season-container">
+					<div class="flex-container">
+						<div class="img-container">
+							<img src="images/goa-2.jpg" alt="Goa image">
+						</div>
+						<div class="note">
+							<h2>Rome of the East</h2>
+							<p>There is no compelling reason to clarify the regular magnificence and sentimental vibe in Goa. Being the Rome of the East, Goa is actually one of the most visited tourist place in India <span class="hide">where honeymooners, couples, and beach lovers like to experience romance, peacefulness, and happy hours to appreciate. Aside from the sentimental feeling, Goa is the smallest state is likewise known for its one of a kind and age-old cultures, customs and civic establishments. Cultural Goa as it is called is a home to old churches, temples and mosques that show you the genuine picture of holiness in the little Indian state.</span></p>
+							<button class="contact-us">Contact Us</button>
+						</div>
+					</div>
+				</div>
+				<div class="place-container">
+					<div class="flex-container">
+						<div class="img-container">
+							<img src="images/goa-beach-people.jpg" alt="Beach view from above">
+						</div>
+						<div class="note">
+							<h2>Best Time to Visit</h2>
+							<p>Goa is one of the most popular tourist spots in India which can actually be visited at any time of the year, but the best time to visit Goa is from mid-November through mid-February.<span class="hide">The average temperature during these months range between 20 to 28 degrees Celsius. The climate is pleasant and cool and most of the beach parties and festivals like Sunburn take place during these months making it the best time to visit Goa. You can wake up to perfect sunsets on the stunning beaches and magical landscapes of Goa.</span></p>
+							<a href="#">Read More</a>
+							<button class="contact-us">Go To Gallery</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="pckg-container">
+					<h2>Our Packages &amp; Recommendations</h2>
+					<div class="tbl-container">
+						<table>
+							<thead>
+								<tr>
+									<th class="heading" colspan="6">Goa</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td><img src="images/goa-img-1.jpg" alt="Goa image"></td>
+									<td class="title">Discovery North Goa with 3* Hotels Option</td>
+									<td colspan="2">
+										<span class="trip">Weekend Getaways</span>
+										<span class="flight">Flight not included</span>
+										<span class="small">Scenic Goa</span>
+									</td>
+									<td><span class="days">3 Nights / 4 Days</span>
+										<span class="small"> ₹ 5,650</span>
+									</td>
+									<td><span>Goa North</span></td>
+								</tr>
+								<tr>
+									<td><img src="images/goa-img-2.jpg" alt="Goa image"></td>
+									<td class="title">Experience North Goa with 4* Hotel Option</td>
+									<td colspan="2">
+										<span class="trip">Weekend Getaways</span>
+										<span class="flight">Flight not included</span>
+										<span class="small">Scenic Goa</span>
+									</td>
+									<td>
+										<span class="days">3 Nights / 4 Days</span>
+										<span class="small"> ₹ 7,500</span>
+									</td>
+									<td>Goa North</td>
+								</tr>
+								<tr>
+									<td><img src="images/lonavala.jpg" alt="Lonavala"></td>
+									<td class="title">Ganpatipule With Nasik and Silvassa</td>
+									<td colspan="2">
+										<span class="trip">Self Drive Tour</span>
+										<span class="flight">Flight not included</span>
+										<span class="small">Scenic Goa</span>
+									</td>
+									<td>
+										<span class="days">7 Nights / 8 Days</span>
+										<span class="small"> ₹ 15,000</span>
+									</td>
+									<td><span>Nashik, Lonavala, Goa, Ganpatipule, Silvassa</span></td>
+								</tr>
+								<tr>
+									<td><img src="images/silvassa.jpg" alt="Silvassa"></td>
+									<td class="title">Lonavala With Goa &amp; Chiplun</td>
+									<td colspan="2">
+										<span class="trip">Self Drive Tour</span>
+										<span class="flight">Flight not included</span>
+										<span class="small">Scenic Goa</span>
+									</td>
+									<td>
+										<span class="days">6 Nights / 7 Days</span>
+										<span class="small"> ₹ 10,870</span>
+									</td>
+									<td><span>Lonavala, Goa, Chiplun</span></td>
+								</tr>
+								<tr>
+									<td><img src="images/ganpatipule.jpg" alt="Ganapatipule"></td>
+									<td class="title">Lonavala With Ganpatipule &amp; Silvassa</td>
+									<td colspan="2">
+										<span class="trip">Self Drive Tour</span>
+										<span class="flight">Flight not included</span>
+										<span class="small">Scenic Goa</span>
+									</td>
+									<td>
+										<span class="days">6 Nights / 7 Days</span>
+										<span class="small"> ₹ 12,500</span>
+									</td>
+									<td><span>Lonavala, Goa, Ganpatipule, Silvassa</span></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+
+				<div class="img-gallery">
+					<h2>Popular Destinations in Goa</h2>
+					<div class="flex-container">
+						<div class="gallery-item">
+							<img src="images/goa-img-1.jpg" alt="Goa">
+							<div class="place-img-container">
+								<a href="#">
+									<div class="place-name-container">
+										<h3>Goa</h3>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="gallery-item">
+							<img src="images/lonavala.jpg" alt="Lonavala">
+							<div class="place-img-container">
+								<a href="#">
+									<div class="place-name-container">
+										<h3>Lonavala</h3>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="gallery-item">
+							<img src="images/goa-img-2.jpg" alt="Goa">
+							<div class="place-img-container">
+								<a href="#">
+									<div class="place-name-container">
+										<h3>Goa</h3>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="gallery-item">
+							<img src="images/ganpatipule.jpg" alt="Ganpatipule">
+							<div class="place-img-container">
+								<a href="#">
+									<div class="place-name-container">
+										<h3>Ganpatipule</h3>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="gallery-item">
+							<img src="images/silvassa.jpg" alt="Silvassa">
+							<div class="place-img-container">
+								<a href="#">
+									<div class="place-name-container">
+										<h3>Silvassa</h3>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="gallery-item">
+							<img src="images/ganpatipule-1.jpg" alt="Ganpatipule">
+							<div class="place-img-container">
+								<a href="#">
+									<div class="place-name-container">
+										<h3>Ganpatipule</h3>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			
+			<!--			Himachal Pradesh starts here-->
+			<div id="himachal-container">
+				<div class="season-container">
+					<div class="flex-container">
+						<div class="img-container">
+							<img src="images/himachal-1.jpg" alt="Girl in a mountain">
+						</div>
+						<div class="note">
+							<h2>All Season's State</h2>
+							<p>Deep, plunging valleys and looming mountain ranges that are breathtaking and heart-stopping all the same, Himachal Pradesh is a heavenly abode that none can forget once visited. <span class="hide">Treacherous trekking routes and magical rivers along with quiet monasteries and relaxing resorts, there is so much to explore in Himachal Pradesh that you just can’t get enough of it. Whether it’s exploring quaint hill stations of attempting the impossible through paragliding, here’s a handy guide to take you through the roller coaster that is Himachal Pradesh.</span></p>
+							<button class="contact-us">Contact Us</button>
+						</div>
+					</div>
+				</div>
+				<div class="place-container">
+					<div class="flex-container">
+						<div class="img-container">
+							<img src="images/himachal-2.jpg" alt="Mountain">
+						</div>
+						<div class="note">
+							<h2>Best Time to Visit</h2>
+							<p>February to June (Spring and Summer) is the best time to visit Himachal. The state also undergoes a beautiful transformation during the winters<span class="hide">, i.e., between October and February when it's the snowfall season. This is also the best time for skiing and ice skating. Places like Rohtang Pass, Kufri and Shimla are quite popular tourist destinations. Summers are an ideal time for trekking, paragliding, camping and water sports. Most treks during this time take place in Shimla, Manali and Dharamshala. During monsoons from July to September, it is suggested to avoid certain areas in Himachal that are prone to landslides. </span></p>
+							<a href="#">Read More</a>
+							<button class="contact-us">Go To Gallery</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="pckg-container">
+					<h2>Our Packages &amp; Recommendations</h2>
+					<div class="tbl-container">
+						<table>
+							<thead>
+								<tr>
+									<th class="heading" colspan="6">Himachal Pradesh</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td><img src="images/amritsar.jpg" alt="Amritsar"></td>
+									<td class="title">Himachal with Golden Temple</td>
+									<td colspan="2">
+										<span class="trip">Private Van Tour</span>
+										<span class="flight">Flight not included</span>
+										<span class="small">Scenic Places</span>
+									</td>
+									<td><span class="days">4 Nights / 5 Days</span>
+										<span class="small"> ₹ 16,150</span>
+									</td>
+									<td><span>Dharamsala, Dalhousie, Amritsar</span></td>
+								</tr>
+								<tr>
+									<td><img src="images/chandigarh.jpg" alt="Chandigarh"></td>
+									<td class="title">Magic Of Himachal with Chandigarh</td>
+									<td colspan="2">
+										<span class="trip">Private Van Tour</span>
+										<span class="flight">Flight not included</span>
+										<span class="small">Scenic Places</span>
+									</td>
+									<td>
+										<span class="days">6 Nights / 7 Days</span>
+										<span class="small"> ₹ 22,020</span>
+									</td>
+									<td>Shimla, Manali, Chandigarh</td>
+								</tr>
+								<tr>
+									<td><img src="images/rohtang.jpg" alt="Rohtang"></td>
+									<td class="title">Scenic Himachal</td>
+									<td colspan="2">
+										<span class="trip">Private Van Tour</span>
+										<span class="flight">Flight not included</span>
+										<span class="small">Scenic Places</span>
+									</td>
+									<td>
+										<span class="days">7 Nights / 8 Days</span>
+										<span class="small"> ₹ 25,390</span>
+									</td>
+									<td><span>Shimla, Manali, Chandigarh</span></td>
+								</tr>
+								<tr>
+									<td><img src="images/manali.jpg" alt="manali"></td>
+									<td class="title">Himachal Fantasy</td>
+									<td colspan="2">
+										<span class="trip">Private Van Tour</span>
+										<span class="flight">Flight not included</span>
+										<span class="small">Scenic Places</span>
+									</td>
+									<td>
+										<span class="days">8 Nights / 9 Days</span>
+										<span class="small"> ₹ 29,650</span>
+									</td>
+									<td><span>Shimla, Manali, Dalhousie, Amritsar</span></td>
+								</tr>
+								<tr>
+									<td><img src="images/shimla-1.jpg" alt="Shimla"></td>
+									<td class="title">Himalayan Wonder With Chandigarh</td>
+									<td colspan="2">
+										<span class="trip">Private Van Tour</span>
+										<span class="flight">Flight not included</span>
+										<span class="small">Scenic Places</span>
+									</td>
+									<td>
+										<span class="days">9 Nights / 10 Days</span>
+										<span class="small"> ₹ 33,190</span>
+									</td>
+									<td><span>Shimla, Manali, Dharamsala, Dalhousie, Chandigarh</span></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+
+				<div class="img-gallery">
+					<h2>Popular Destinations in Goa</h2>
+					<div class="flex-container">
+						<div class="gallery-item">
+							<img src="images/amritsar.jpg" alt="Amritsar">
+							<div class="place-img-container">
+								<a href="#">
+									<div class="place-name-container">
+										<h3>Amritsar</h3>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="gallery-item">
+							<img src="images/chandigarh.jpg" alt="Chandigarh">
+							<div class="place-img-container">
+								<a href="#">
+									<div class="place-name-container">
+										<h3>Chandigarh</h3>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="gallery-item">
+							<img src="images/shimla-2.jpg" alt="Shimla">
+							<div class="place-img-container">
+								<a href="#">
+									<div class="place-name-container">
+										<h3>Shimla</h3>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="gallery-item">
+							<img src="images/manali.jpg" alt="Manali">
+							<div class="place-img-container">
+								<a href="#">
+									<div class="place-name-container">
+										<h3>Manali</h3>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="gallery-item">
+							<img src="images/shimla-1.jpg" alt="Shimla">
+							<div class="place-img-container">
+								<a href="#">
+									<div class="place-name-container">
+										<h3>Shimla</h3>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="gallery-item">
+							<img src="images/rohtang.jpg" alt="Rohtang">
+							<div class="place-img-container">
+								<a href="#">
+									<div class="place-name-container">
+										<h3>Rohtang</h3>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+<!--icons are moved to index page-->
+		</main>
+		
+		<footer>
+			<div class="container">
+				<div class="footer-container">
+					<div class="copyright">
+						Copyright 2020 Group G. All Rights Reserved.
+					</div>
+					<div class="members">
+						<a href="mailto:Yhuang4881@conestogac.on.ca">Huang, You-Sheng</a>
+						<a href="mailto:Akurian5509@conestogac.on.ca">Kurian, Alwin Jose</a>
+						<a href="mailto:Rkaur6080@conestogac.on.ca">Kaur, Ramanjeet</a>
+						<a href="mailto:Sprajapati7358@conestogac.on.ca">Prajapati, Shivangi</a>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
